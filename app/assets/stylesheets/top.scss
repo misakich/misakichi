@@ -1,0 +1,191 @@
+.headerimage-top{
+    background-image: url(b.JPG);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0%;
+    z-index: -10;
+    margin: 0 0 0.5rem;
+  }
+  
+
+/*見出し*/
+.bigheader-top{
+  justify-content: center;
+  text-align: center;
+  line-height: normal;
+  display: inline-block;
+  border-bottom: solid 4px rgba(213, 114, 23, 0.92);
+  padding: 20px 20px;
+  margin: 70px 460;
+  width: 400px;
+  position: relative;
+  top: 650px;
+}
+
+/*その下のイントロ*/
+  .intro-top{
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    margin: 45% 10% 5% 10%;
+    line-height: 30px;
+  }
+
+  .intro-top-2{
+    margin-top: 3%;
+  }
+
+  
+
+
+/*診断ページ遷移ボタン*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-svg {
+  font-weight: 700;
+  line-height: 54px;
+
+  width: 304px;
+  height: 54px;
+  padding: 0;
+  margin: 0 0 10% 40%;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  background-color: transparent;
+}
+
+a.btn-svg svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+a.btn-svg svg rect {
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+
+  stroke: #000;
+  stroke-width: 2;
+  stroke-dasharray: 200px, 16px;
+  stroke-dashoffset: 70px;
+}
+
+a.btn-svg:hover svg rect {
+  stroke-dashoffset: 284px;
+}
+
+a.btn-svg span {
+  color: #000;
+}
+
+
+
+  /*円*/
+  .circle-background{
+    background-size: cover;
+    background-image: url(c.JPG);
+    width: 100%;
+    height: 630px;
+  }
+
+  .circle-all-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 190px;
+  }
+  .circle1-top{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: rgba(249, 246, 240, 0.7);/*背景色*/
+    text-align:left;
+    margin-right: 3%;
+    font-size: large;
+  }
+  
+  .circle2-top{
+    position: relative;
+    display: inline-block;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: rgba(249, 246, 240, 0.7);/*背景色*/
+    text-align:left;
+    margin-right: 3%;
+    font-size: large;
+  }
+
+  .circle3-top{
+    position: relative;
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: rgba(249, 246, 240, 0.7);/*背景色*/
+    text-align:left;
+    font-size: large;
+  }
+
+  .circle-text-top{
+    position: absolute;
+    top:50%;
+    left:53%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+  }
+
+
+  .intro-top-bottom{
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+  }

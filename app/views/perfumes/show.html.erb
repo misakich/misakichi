@@ -1,0 +1,165 @@
+<div class="intoro">
+            <h5>診断結果</h5>
+            <p>あなたにおすすめのカスタムは</p>
+        </div>
+        <div class="tweet-container">
+            <div class="tweet">
+            <div class="green">
+                <% if @perfume.question == "111" %>
+                <p><font size="7">ほうじ茶&クラッシックティーラテ</font></p>
+                <p><font size="8">とろあまキャラメルカスタム</font></p><br>
+            <div class="img">
+                <%= image_tag "houji.JPG", class: "img-shindan" %><br>
+                <%= image_tag "houjii.JPG", class: "img-shindan" %><br>
+            </div>
+         </div>
+         <div class="moji">
+                <p></p>ほうじ茶の香ばしさが引き立てる濃厚ミルクとダブルキャラメルの甘うまミルクティー<br>
+        </div>
+
+        <div class="green">
+                <% elsif @perfume.question == "112" %>
+                <p><font size="7">ブラックティー</font></p><br>
+                <p><font size="8"></font>ハチミツレモンミルクティーカスタム</p><br>
+             <div class="img">
+                <%= image_tag "honey.JPG", class: "img-shindan" %><br>
+                <%= image_tag "honeyy.JPG", class: "img-shindan" %><br>
+            </div>
+            </div>
+            <div class="moji">
+                <p>フルーティーな味わいとあまいスッキリミルクティーが融合したよ</p><br>
+                </div>
+
+            <div class="green">
+                <% elsif @perfume.question == "121" %>
+                <p><font size="7">アイスの抹茶ティーラテ</font></p><br>
+                <p><font size="8">抹茶すぎるカスタム</font></p><br>
+                <div class="img">
+                <%= image_tag "mach.JPG", class: "img-shindan" %><br>
+                <%= image_tag "macha.JPG", class: "img-shindan" %><br>
+            </div>
+            </div>
+            <div class="moji">
+                <p></p>スッキリな口当たりで抹茶の風味を感じられる極み抹茶<br>
+                </div>
+
+             <div class="green">
+                <% elsif @perfume.question == "122" %>
+                <p><font size="7">ゆずシトラス＆ティー</font></p><br>
+                <p><font size="8"></font>アシャッチュカスタム</p><br>
+                <div class="img">
+                <%= image_tag "yuzu.JPG", class: "img-shindan" %><br>
+                <%= image_tag "yuzuu.JPG", class: "img-shindan" %><br>
+            </div>
+            </div>
+            <div class="moji">
+                <p></p>コーヒーの香ばしさをアクセントにしたフルーツティー。びっくりする神スッキリ感<br>
+                </div>
+
+            <div class="green">
+                <% elsif @perfume.question == "211" %>
+                <p><font size="7">ホットのホワイトモカ</font></p><br>
+                <p><font size="8"></font>コーヒー牛乳っぽカスタム</p><br>
+            <div class="img">
+                <%= image_tag "howa.JPG", class: "img-shindan" %><br>
+                <%= image_tag "moka.JPG", class: "img-shindan" %><br>
+            </div>
+            </div>
+            <div class="moji">
+                <p>苦味がほぼなくて甘さが引き立つ超うまコーヒー！</p><br>
+                </div>
+
+             <div class="green">
+                <% elsif @perfume.question == "212" %>
+                <p><font size="7">コールドブリューコーヒー</font></p><br>
+                <p><font size="8">チャイクリームオリアートカスタム</font></p><br>
+            <div class="img">
+                <%= image_tag "cold.JPG", class: "img-shindan" %><br>
+                <%= image_tag "brew.JPG", class: "img-shindan" %><br>
+            </div>
+            </div>
+            <div class="moji">
+                <p></p>オリーブの旨みとコーヒーの香ばしさが隠し味クリーミーな新感覚チャイラテ<br>
+                </div>
+
+             <div class="green">
+                <% elsif @perfume.question == "221" %>
+                <p><font size="7">アイスカプチーノ</font></p><br>
+                <p><font size="8">ふわとろソイハニーカスタム</font></p><br>
+            <div class="img">
+                <%= image_tag "soy.JPG", class: "img-shindan" %><br>
+                <%= image_tag "soyy.JPG", class: "img-shindan" %><br>
+            </div>
+            </div>
+            <div class="moji">
+                <p>スッキリ＆クリーミーの絶妙なバランス！ハチミツのアクセントにふわとろ食感のカフェオレ</p><br>
+            </div>
+
+                <div class="green">
+                <% elsif @perfume.question == "222" %>
+                <p><font size="7">カフェアメリカーノ</font></p><br>
+                <p><font size="8">カクテル風ドリンクカスタム</font></p><br>
+            <div class="img">
+                <%= image_tag "cafe.JPG", class: "img-shindan" %><br>
+                <%= image_tag "ame.JPG", class: "img-shindan" %><br>
+            </div>
+            </div>
+            <div class="moji">
+                <p></p>香ばしくてスッキリしたコーヒーの風味とフルーツが調和する爽快感抜群<br>
+            </div>
+
+             <div class="green">
+                <% elsif @perfume.question == "311" %>
+                <p><font size="7">バニラクリームフラペチーノ</font></p><br>
+                <p><font size="8">牧場ミルクカスタム</font></p><br>
+            <div class="img">
+                <%= image_tag "boku.JPG", class: "img-shindan" %><br>
+                <%= image_tag "jyo.JPG", class: "img-shindan" %><br>
+            </div>
+            </div>
+            <div class="moji">
+                <p></p>シンプルだからこそ極まるクリーミーであまーいミルクのフラペチーノ<br>
+                </div>
+
+            <div class="green">
+                <% elsif @perfume.question == "312" %>
+                <p><font size="7">バニラクリームフラペチーノ</font></p><br>
+                <p><font size="8">憧れレモンパイカスタム</font></p><br>
+             <div class="img">
+                <%= image_tag "lemo.JPG", class: "img-shindan" %><br>
+                <%= image_tag "lemon.JPG", class: "img-shindan" %><br>
+            </div>
+            </div>
+            <div class="moji">
+                <p></p>まろやかクリーミーパイの本体とジューシーな果肉がベストマッチ<br>
+                </div>
+
+                <div class="green">
+                <% elsif @perfume.question == "322" %>
+                <p><font size="7">抹茶クリームフラペチーノ</font></p><br>
+                <p><font size="8">金の宇治抹茶カスタム</font></p><br>
+                <div class="img">
+                <%= image_tag "green.JPG", class: "img-shindan" %><br>
+                <%= image_tag "tea.JPG", class: "img-shindan" %><br>
+            </div>
+            </div>
+            <div class="moji">
+                <p></p>濃い抹茶に香ばしい旨みが加わった本格抹茶の大人フラペ<br>
+                </div>
+                </div>
+
+                <div class="green">
+                <% elsif @perfume.question == "321" %>
+                <p><font size="7">エスプレッソアフォガードフラペチーノ</font></p><br>
+                <p><font size="8">オレオ風カスタム</font></p><br>
+                <div class="img">
+                <%= image_tag "oreo.JPG", class: "img-shindan" %><br>
+                <%= image_tag "oreoo.JPG", class: "img-shindan" %><br>
+            </div>
+            </div>
+                <div class="moji">
+                <p></p>オレオ風味を研究して考えた濃厚であまーいお菓子系フラペ<br>
+                </div>
+                <% end %>
+
+        </div>

@@ -1,0 +1,44 @@
+<%= form_for(@perfume, class: 'form-horizontal', role: 'form') do |f| %>
+    <div class="container-sindan">
+        <div class="row">
+        <div class="custom">
+            <div class="col-12">
+                <p>Q1. 飲みたいドリンクは？</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "1", nil %>ティー</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "2", nil %>エスプレッソ</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "3", nil %>フラペチーノ</p>
+            </div>
+         </div>
+         <div class="custom">
+            <div class="col-12">
+                <p>Q2. どっちが好み？</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "1", nil %>甘め</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "2", nil %>苦め</p>
+            </div>
+            </div>    
+        <div class="custom">
+            <div class="col-12">
+                <p>Q3. どっちの気分？</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "1", nil %>スイーツ感覚で！</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "2", nil %>すっきり飲みたい！</p>
+        </div>     
+        </div>
+    </div>
+    <div class="sindanbotan">
+        <%= f.submit "結果" %>
+    </div>
+<% end %>

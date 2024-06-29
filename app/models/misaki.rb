@@ -1,0 +1,2 @@
+class Misaki < ApplicationRecord
+end
