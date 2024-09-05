@@ -6400,8 +6400,8 @@ side-channel@^1.0.4, side-channel@^1.0.6:
     object-inspect "^1.13.1"
 
 signal-exit@^3.0.0:
-  version ""
-  resolved "https://registry.npmjs.org/signal-exit/-/signal-exit-3.1.5.tgz"
+  version “3.0.7”
+  resolved "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
 simple-swizzle@^0.2.2:
